@@ -1,0 +1,77 @@
+body {
+    background-color: #2e3030;
+  }
+
+h1{
+    font-family: HaveHeartOne;
+    color: rgb(250, 99, 28);
+    padding-left: 5%;
+    font-size: 70px;
+  }
+h2{
+    font-family: HaveHeartOne;
+    color: white;
+    padding-left: 14%;
+    font-size: 30px;
+    margin-top: -19px;
+  }
+
+  .tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9 {
+    display: table-cell;
+    width: 170px;
+    height: 170px;
+    border: 1px solid white;
+    background: url(img/pic.png); 
+    cursor: pointer;
+  }
+
+.tile1 {background-position: left top;}
+.tile2 {background-position: center top;}
+.tile3 {background-position: right top;}
+.tile4 {background-position: left center;}
+.tile5 {background-position: center center;}
+.tile6 {background-position: right center;}
+.tile7 {background-position: left bottom;}
+.tile8 {background-position: center bottom;}
+.tile9 {background: white; cursor: default;}
+
+.tabla{
+    text-align:center;
+}
+
+button {
+    background-color: rgb(250, 95, 24); 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px; 
+    padding: 12px 32px;
+    font-family: Roboto;
+    font-size: 18px;
+    width: 170px;
+    margin-top: 19px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    margin-left: 12.4%;
+    /* Pointer for the cursor */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(116, 116, 116); 
+    color: white;
+  }
+
+  .tile16 {
+    background-color: #2e3030; 
+    color: #2e3030;
+    padding: 32px 32px;
+    text-align: center;
+    font-size: 30px;
+    width:100px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    cursor: default;
+    border: none;
+    /* Pointer for the cursor */
+
+  }
